@@ -1,0 +1,15 @@
+Source: orange-pi-fan-control
+Section: utils
+Priority: optional
+Maintainer: Cactus <medved_cool@mail.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/orange-pi-fan-control.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/orange-pi-fan-control.git;a=summary
+
+Package: orange-pi-fan-control
+Architecture: armhf
+Depends: systemd
+Description: Fan control for Orange PI
+	Fan control for Orange PI

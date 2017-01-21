@@ -1,0 +1,10 @@
+[Unit]
+Description=Fan control for Orange PI
+JoinsNamespaceOf=/sys/class/gpio /sys/class/thermal/thermal_zone0/temp
+
+[Service]
+ExecStart=/usr/sbin/orange-pi-fan-control.sh
+ExecReload=/bin/kill -s HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

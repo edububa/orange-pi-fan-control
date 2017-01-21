@@ -1,0 +1,5 @@
+orange-pi-fan-control (1.0.1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Cactus <medved_cool@mail.ru>  Sat, 14 Jan 2017 01:34:37 +0300
